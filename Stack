@@ -67,3 +67,12 @@ public:
 		*this=temp;
 	}
 };
+
+bool cekoperator(char a,char b)
+{
+	if(a=='(' || b=='(')
+	return true;
+	if( (a=='*' || a=='/') && (b=='+' || b=='-') )
+		return true;
+	return false;
+}
