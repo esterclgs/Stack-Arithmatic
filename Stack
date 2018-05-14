@@ -3,13 +3,12 @@
  * 2. Rhama Shandy 		 : 1717051018
  * 3. Rayhan Syahrindra		 : 1717051038
  * 4. Renaldi Kumar Mahendra	 : 1717051050
- * Link Github 			 : https://github.com/esterclgs1002/Stack-Arithmatic
  */
+
 
 #include <iostream>
 #include <cstring>
 using namespace std;
-
 Template <typename T>
 class stack{
 	T *data;
@@ -95,10 +94,15 @@ stack<char> postfix(char input[]){
 	x='#';
 	post_fix.push(x);
 	isNumber=false;
-}
-if(input[i]==')'){
-	operators.pop(x);
-	while(x!='('){
-	post_fix.push(x);
-	operators.pop(x);
-}
+	}
+	if(input[i]==')'){
+		operators.pop(x);
+		while(x!='('){
+		post_fix.push(x);
+		operators.pop(x);
+	}
+	}
+	else{
+	if(input[i]=='+' || input[i]=='-' || input[i]=='*' || input[i]=='/' || input[i]=='('){
+		if(operators.isEmpty())
+		operators.push(input[i]);
