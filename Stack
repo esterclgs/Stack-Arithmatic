@@ -30,3 +30,6 @@ public:
 	bool isEmpty(){
 	return (top==0);}
 	
+	bool push(T x){
+	if(isFull())
+	tambahlagi();
