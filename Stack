@@ -133,3 +133,9 @@ stack<char> postfix(char input[]){
 	}
 	return post_fix;
 }
+float EVALUATE(stack<char> post_fix)
+{
+	float num=0,temp_num=0,op1,op2,result=0;
+	char x;
+	bool isNumber;
+	stack<float> operands;
