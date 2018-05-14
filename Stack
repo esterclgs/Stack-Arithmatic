@@ -125,3 +125,9 @@ stack<char> postfix(char input[]){
 		}
 		}
 		}
+	while(!operators.isEmpty()){
+	operators.pop(x);
+	if(x=='(')
+	continue;
+	post_fix.push(x);
+	}
