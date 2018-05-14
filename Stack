@@ -168,3 +168,6 @@ float EVALUATE(stack<char> post_fix)
 			}
 		}
 	}
+	operands.pop(result);
+	return result;
+	}
