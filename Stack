@@ -37,6 +37,7 @@ public:
 	data[top++]=x;
 	return true;
 	}
+
 	
 	bool pop(T &x){
 	if(isEmpty())
@@ -45,3 +46,9 @@ public:
 	x=data[--top];
 	return true;
 	}
+
+	void tambahlagi(){
+		T *temp=new T[size];
+		for (int i=0;i<size;i++)
+			temp[i]=data[i];
+		delete data;
