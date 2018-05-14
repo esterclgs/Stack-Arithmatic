@@ -169,3 +169,14 @@ float EVALUATE(stack<char> post_fix)
 	operands.pop(result);
 	return result;
 	}
+int main()
+{
+	char input[1000],x;
+	stack<char> post_fix;
+	cout<<"Masukkan Aritmatika : "<<endl;
+	cin.getline(input,999);
+	post_fix=postfix(input);
+	post_fix.BalikUrutan();
+	cout<<"Hasil : "<<EVALUATE(post_fix)<<endl;
+	return 0;
+}
