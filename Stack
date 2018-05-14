@@ -106,3 +106,7 @@ stack<char> postfix(char input[]){
 	if(input[i]=='+' || input[i]=='-' || input[i]=='*' || input[i]=='/' || input[i]=='('){
 		if(operators.isEmpty())
 		operators.push(input[i]);
+		else{
+		while(!operators.isEmpty()){
+		operators.pop(x);
+		if(cekoperator(input[i],x)){
