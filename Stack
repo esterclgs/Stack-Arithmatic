@@ -38,6 +38,11 @@ public:
 	data[top++]=x;
 	return true;
 	}
+	operators.push(x);
+	operators.push(input[i]);
+	break;
+	}
+	
 
 	
 	bool pop(T &x){
