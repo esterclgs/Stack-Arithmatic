@@ -94,3 +94,6 @@ stack<char> postfix(char input[]){
 	post_fix.push(x);
 	isNumber=false;
 }
+if(input[i]==')'){
+				operators.pop(x);
+				while(x!='('){
