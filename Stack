@@ -164,3 +164,7 @@ float EVALUATE(stack<char> post_fix)
 		result=op1*op2;
 		if(x=='/')
 		result=op1/op2;
+		operands.push(result);
+			}
+		}
+	}
