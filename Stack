@@ -146,3 +146,5 @@ float EVALUATE(stack<char> post_fix)
 			temp_num=x-48;
 			num*=10;
 			num+=temp_num;
+		}
+		else{
