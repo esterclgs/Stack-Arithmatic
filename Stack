@@ -37,3 +37,7 @@ public:
 	data[top++]=x;
 	return true;
 	}
+
+	
+	bool pop(T &x){
+	if(isEmpty())
