@@ -155,3 +155,4 @@ float EVALUATE(stack<char> post_fix)
 			}
 		if(x!='#'){
 		operands.pop(op2);
+		perands.pop(op1);
