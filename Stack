@@ -91,3 +91,6 @@ stack<char> postfix(char input[]){
 	else{
 	if(isNumber==true){
 	x='#';
+	post_fix.push(x);
+	isNumber=false;
+}
