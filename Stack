@@ -8,3 +8,6 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
+Template <typename T>
+class stack{
+	T *data;
