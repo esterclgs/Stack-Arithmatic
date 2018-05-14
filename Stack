@@ -149,3 +149,6 @@ float EVALUATE(stack<char> post_fix)
 		}
 		else{
 			if(isNumber==true){
+			operands.push(num);
+			isNumber=false;
+			num=0;
