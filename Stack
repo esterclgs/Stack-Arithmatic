@@ -139,6 +139,10 @@ float EVALUATE(stack<char> post_fix)
 	char x;
 	bool isNumber;
 	stack<float> operands;
-while(!post_fix.isEmpty()){
+	while(!post_fix.isEmpty()){
 		post_fix.pop(x);
 		if(x>='0' && x<='9'){
+			isNumber=true;
+			temp_num=x-48;
+			num*=10;
+			num+=temp_num;
