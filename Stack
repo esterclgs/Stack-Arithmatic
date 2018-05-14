@@ -131,3 +131,5 @@ stack<char> postfix(char input[]){
 	continue;
 	post_fix.push(x);
 	}
+	return post_fix;
+}
