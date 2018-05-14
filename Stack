@@ -43,8 +43,6 @@ public:
 	break;
 	}
 	
-
-	
 	bool pop(T &x){
 	if(isEmpty())
 
