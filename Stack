@@ -33,3 +33,7 @@ public:
 	bool push(T x){
 	if(isFull())
 	tambahlagi();
+
+	data[top++]=x;
+	return true;
+	}
