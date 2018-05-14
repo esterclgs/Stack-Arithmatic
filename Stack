@@ -76,3 +76,8 @@ bool cekoperator(char a,char b)
 		return true;
 	return false;
 }
+
+stack<char> postfix(char input[]){
+	
+	stack<char> post_fix;
+	stack<char> operators;
