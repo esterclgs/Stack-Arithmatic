@@ -118,3 +118,10 @@ stack<char> postfix(char input[]){
 		else
 		post_fix.push(x);
 		}
+		if(operators.isEmpty())
+		operators.push(input[i]);
+		}
+		}
+		}
+		}
+		}
