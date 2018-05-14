@@ -20,3 +20,6 @@ public:
 	top=0;}
 	
 	stack(int s){
+	size=s;
+	data=new T[size];
+	top=0;}
