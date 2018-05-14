@@ -14,3 +14,6 @@ class stack{
 	int size;
 	int top;
 public:
+	stack(){
+	size=0;
+	data=new T[size];
