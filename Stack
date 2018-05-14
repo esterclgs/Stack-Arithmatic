@@ -95,5 +95,8 @@ stack<char> postfix(char input[]){
 	isNumber=false;
 }
 if(input[i]==')'){
-				operators.pop(x);
-				while(x!='('){
+	operators.pop(x);
+	while(x!='('){
+	post_fix.push(x);
+	operators.pop(x);
+}
