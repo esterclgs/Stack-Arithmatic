@@ -148,3 +148,4 @@ float EVALUATE(stack<char> post_fix)
 			num+=temp_num;
 		}
 		else{
+			if(isNumber==true){
