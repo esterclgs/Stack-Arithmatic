@@ -115,3 +115,6 @@ stack<char> postfix(char input[]){
 		while(!operators.isEmpty()){
 		operators.pop(x);
 		if(cekoperator(input[i],x)){
+		else
+		post_fix.push(x);
+		}
