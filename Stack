@@ -152,3 +152,4 @@ float EVALUATE(stack<char> post_fix)
 			operands.push(num);
 			isNumber=false;
 			num=0;
+			}
