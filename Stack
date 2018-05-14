@@ -17,3 +17,6 @@ public:
 	stack(){
 	size=0;
 	data=new T[size];
+	top=0;}
+	
+	stack(int s){
