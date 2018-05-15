@@ -172,6 +172,12 @@ float EVALUATE(stack<char> post_fix)
 }
 
 
+int main()
+{
+	char input[1000],x;
+	stack<char> post_fix;
+
+
 
 
 
