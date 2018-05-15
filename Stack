@@ -73,6 +73,7 @@ public:
 	}
 };
 
+
 bool cekoperator(char a,char b)
 {
 	if(a=='(' || b=='(')
