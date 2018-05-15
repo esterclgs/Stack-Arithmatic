@@ -176,6 +176,8 @@ int main()
 {
 	char input[1000],x;
 	stack<char> post_fix;
+	cout<<"Masukkan Aritmatika : "<<endl;
+	cin.getline(input,999);
 
 
 
