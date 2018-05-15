@@ -180,6 +180,9 @@ int main()
 	cin.getline(input,999);
 	post_fix=postfix(input);
 	post_fix.BalikUrutan();
+	cout<<"Hasil : "<<EVALUATE(post_fix)<<endl;
+	return 0;
+}
 
 
 
