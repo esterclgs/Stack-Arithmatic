@@ -178,6 +178,8 @@ int main()
 	stack<char> post_fix;
 	cout<<"Masukkan Aritmatika : "<<endl;
 	cin.getline(input,999);
+	post_fix=postfix(input);
+	post_fix.BalikUrutan();
 
 
 
